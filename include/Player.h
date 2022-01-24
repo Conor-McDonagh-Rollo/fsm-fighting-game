@@ -31,7 +31,7 @@ public:
 	void flipSprite();
 	bool isFlipped();
 	bool isColliding(Player&);
-	bool Player::isCollidingAttack(Player& other, float range);
+	bool isCollidingAttack(Player&, float);
 	Position m_pos;
 	float health = 100.f;
 	const float HIT_CIRCLE = 50.f;
